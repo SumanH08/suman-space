@@ -1,0 +1,43 @@
+body{
+  letter-spacing: 1px;
+}
+
+.container {
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.bottom-center-intro {
+  word-spacing: 2px;
+  font-weight: 10;
+  position: absolute;
+  text-align: center;
+  top: 700px;
+  min-width: 800px;
+  left: 50%;
+  color: #CFD8DC;
+  font-family: 'Quicksand', sans-serif;
+  transform: translate(-50%, -50%);
+}
+
+.project-links {
+  font-size: 1em;
+  color: #CFD8DC !important;
+  text-align: center;
+}
+
+a:link {
+  word-spacing: 3px;
+  color: #CFD8DC;
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  text-underline-position: under
+}
+.extra a{
+  text-decoration: none;
+  color: #CFD8DC;
+}
